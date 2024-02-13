@@ -6242,8 +6242,8 @@
 	],
 	"textures": [
 		{
-			"path": "C:\\Users\\afro\\AppData\\Roaming\\.minecraft\\versions\\1.20.1\\1.20.1\\assets\\minecraft\\textures\\block\\lime_terracotta.png",
-			"name": "lime_terracotta",
+			"path": "C:\\Users\\afro\\AppData\\Roaming\\.minecraft\\versions\\1.20.1\\1.20.1\\assets\\minecraft\\textures\\block\\moss_block.png",
+			"name": "moss_block",
 			"folder": "",
 			"namespace": "",
 			"id": "0",
