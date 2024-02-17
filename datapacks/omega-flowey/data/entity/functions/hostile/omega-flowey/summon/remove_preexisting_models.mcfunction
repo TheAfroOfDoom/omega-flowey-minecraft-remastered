@@ -1,3 +1,4 @@
+function animated_java:arm_vine/remove/all
 function animated_java:large_side_vine/remove/all
 function animated_java:lower_eye/remove/all
 function animated_java:nose/remove/all

@@ -1,5 +1,9 @@
 function entity:hostile/omega-flowey/summon/remove_preexisting_models
 
+## Arm vines
+# Left arm vine
+execute positioned 30 39 -5 rotated 185 0 run function animated_java:arm_vine/summon
+
 ## Large side vines
 # Right large side vine
 execute positioned -25 40 -9 rotated 135 -10 run function animated_java:large_side_vine/summon
@@ -7,6 +11,9 @@ tag @e[tag=aj.large_side_vine.root] add large_side_vine.right
 # Left large side vine
 execute positioned 27 40 -9 rotated 215 -10 run function animated_java:large_side_vine/summon
 tag @e[tag=aj.large_side_vine.root,tag=!large_side_vine.right] add large_side_vine.left
+# Back large side vine
+execute positioned 0 57 43 rotated 270 90 run function animated_java:large_side_vine/summon
+tag @e[tag=aj.large_side_vine.root,tag=!large_side_vine.right,tag=!large_side_vine.left] add large_side_vine.back
 
 ## Lower eyes
 # Right-eye
