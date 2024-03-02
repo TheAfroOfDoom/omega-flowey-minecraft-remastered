@@ -1152,7 +1152,7 @@
 	"outliner": [
 		{
 			"name": "root",
-			"origin": [0, -5.625, 0],
+			"origin": [-16.375, 0, -0.875],
 			"color": 0,
 			"nbt": "{ teleport_duration: 1 }",
 			"uuid": "b5db52a4-e634-0c9c-2adb-8528db483ca5",
@@ -1255,7 +1255,7 @@
 			"name": "empty",
 			"loop": "loop",
 			"override": false,
-			"length": 0.05,
+			"length": 3,
 			"snapping": 20,
 			"selected": true,
 			"anim_time_update": "",
@@ -1269,6 +1269,63 @@
 					"name": "root",
 					"type": "bone",
 					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "-45",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "7e3990f4-eaa6-bb83-8ae9-45791d8a9e3b",
+							"time": 0,
+							"color": -1,
+							"interpolation": "bezier",
+							"bezier_linked": true,
+							"bezier_left_time": [-0.26333, -0.1, -0.1],
+							"bezier_left_value": [-0.68342, 0, 0],
+							"bezier_right_time": [0.26333, 0.1, 0.1],
+							"bezier_right_value": [0.68342, 0, 0]
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "-45",
+									"y": 0,
+									"z": 0
+								}
+							],
+							"uuid": "ebafb512-68e4-f0ad-1bd2-37e4883d7f31",
+							"time": 3,
+							"color": -1,
+							"interpolation": "bezier",
+							"bezier_linked": true,
+							"bezier_left_time": [-0.38333, -0.1, -0.1],
+							"bezier_left_value": [0.34171, 0, 0],
+							"bezier_right_time": [0.38333, 0.1, 0.1],
+							"bezier_right_value": [-0.34171, 0, 0]
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "-135",
+									"y": 0,
+									"z": 0
+								}
+							],
+							"uuid": "df696d99-0b3f-78d5-29b9-a4bc5462f3be",
+							"time": 1.5,
+							"color": -1,
+							"interpolation": "bezier",
+							"bezier_linked": true,
+							"bezier_left_time": [-0.31, -0.1, -0.1],
+							"bezier_left_value": [0, 0, 0],
+							"bezier_right_time": [0.31, 0.1, 0.1],
+							"bezier_right_value": [0, 0, 0]
+						},
 						{
 							"channel": "position",
 							"data_points": [
