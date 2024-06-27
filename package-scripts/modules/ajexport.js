@@ -13,15 +13,15 @@ const requireWithCwd = (cwd = '') => {
   const {
     ajExporterPassthroughFlagEnd,
     ajExporterPassthroughFlagStart,
-    ajmodelDir,
-    ajmodelPathsDontOpenSuffix,
+    ajblueprintDir,
+    ajblueprintPathsDontOpenSuffix,
   } = require(resolve(`${cwd}/package-scripts/shared-consts`));
 
   return {
     ajExporterPassthroughFlagEnd,
     ajExporterPassthroughFlagStart,
-    ajmodelDir: `${cwd}/${ajmodelDir}`,
-    ajmodelPathsDontOpenSuffix,
+    ajblueprintDir: `${cwd}/${ajblueprintDir}`,
+    ajblueprintPathsDontOpenSuffix,
     hash,
     parseLastExportedHashes,
     updateLastExportedHashes,
@@ -34,7 +34,7 @@ const getArg = (argName) => {
   return arg?.replace(argName, '')?.replaceAll('\\', '/');
 };
 
-const MODEL_FILE_EXTENSION = '.ajmodel';
+const MODEL_FILE_EXTENSION = '.ajblueprint';
 const DEV_MODEL_FLAG = '_dev';
 
 export async function script() {
@@ -45,8 +45,8 @@ export async function script() {
   const {
     ajExporterPassthroughFlagEnd,
     ajExporterPassthroughFlagStart,
-    ajmodelDir,
-    ajmodelPathsDontOpenSuffix,
+    ajblueprintDir,
+    ajblueprintPathsDontOpenSuffix,
     hash,
     parseLastExportedHashes,
     updateLastExportedHashes,
@@ -69,7 +69,7 @@ export async function script() {
     mkdirSync(datapackDir);
   }
 
-  const lastExported = parseLastExportedHashes(ajmodelDir);
+  const lastExported = parseLastExportedHashes(ajblueprintDir);
 
   // We catch `console.error` since `safeExportProject` doesn't actually throw an error itself
   console.error = (data) => {
@@ -78,17 +78,17 @@ export async function script() {
   };
 
   const getAllModelFiles = async () =>
-    (await getFiles(ajmodelDir))
+    (await getFiles(ajblueprintDir))
       .filter((file) => file.endsWith(MODEL_FILE_EXTENSION))
       .filter(
         (file) => !file.endsWith(`${DEV_MODEL_FLAG}${MODEL_FILE_EXTENSION}`),
-      ); // ignore ajmodels with `_dev` in name e.g. `housefly_dev.ajmodel`
+      ); // ignore ajblueprints with `_dev` in name e.g. `housefly_dev.ajblueprint`
 
   const modelPathsArg = getArg('--ajexport-models=');
   const files =
     typeof modelPathsArg === 'undefined'
       ? await getAllModelFiles()
-      : modelPathsArg.replaceAll(ajmodelPathsDontOpenSuffix, '').split(',');
+      : modelPathsArg.replaceAll(ajblueprintPathsDontOpenSuffix, '').split(',');
 
   for (const file of files) {
     const content = readFileSync(file, 'utf-8');
@@ -122,7 +122,7 @@ export async function script() {
     log(`exported ${modelName}`);
   }
 
-  updateLastExportedHashes(ajmodelDir, lastExported);
+  updateLastExportedHashes(ajblueprintDir, lastExported);
 }
 
 /**
