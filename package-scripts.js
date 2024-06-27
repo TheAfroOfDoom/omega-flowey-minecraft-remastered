@@ -2,7 +2,7 @@ const dotenv = require('dotenv');
 const { series } = require('nps-utils');
 const { resolve } = require('path');
 
-const { ajmodelDir } = require('./package-scripts/shared-consts');
+const { ajblueprintDir } = require('./package-scripts/shared-consts');
 const { assertEnvironmentVariables } = require('./package-scripts/utils');
 
 dotenv.config();
@@ -30,7 +30,7 @@ const allAnimatedJavaExportFiles = [
   'resourcepack/assets/minecraft/models/item/animated_java_empty.json',
   'resourcepack/assets/minecraft/models/item/white_dye.json',
   'resourcepack/resourcepack.ajmeta',
-  `${ajmodelDir}/last_exported_hashes.json`,
+  `${ajblueprintDir}/last_exported_hashes.json`,
 ];
 const allAnimatedJavaExportFilesFormatted =
   allAnimatedJavaExportFiles.join(',');
@@ -85,7 +85,7 @@ module.exports = {
       },
     },
     export: {
-      default: series('nps export.run', 'echo finished exporting ajmodels'),
+      default: series('nps export.run', 'echo finished exporting ajblueprints'),
       run: `yarn exec "${blockbenchPath}" --script="${ajexportScriptPath}" --cwd="${process.cwd()}" --assets-dir="${assetsDir}" --datapack-mcmeta="${datapackMcmeta}" --resourcepack-mcmeta="${resourcePackMcmeta}"`,
       // forcibly purge the `animated_java` export-cache
       force: series(
