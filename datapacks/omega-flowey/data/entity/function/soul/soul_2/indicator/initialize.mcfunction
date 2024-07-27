@@ -1,8 +1,11 @@
 # Set scores
 scoreboard players set @s soul.clock.i -1
 
+scoreboard players operation @s soul.bullet.position.x = #soul-2 soul.bullet.position.x
+scoreboard players operation @s soul.bullet.position.z = #soul-2 soul.bullet.position.z
+scoreboard players operation @s soul.bullet.position.dz = #soul-2 soul.bullet.position.dz
 scoreboard players operation @s soul.indicator.bullets.total = #soul-2 soul.indicator.bullets.total
-scoreboard players operation @s soul.indicator.bullets.remaining = @s soul.indicator.bullets.total
+scoreboard players operation @s soul.indicator.rate = #soul-2 soul.indicator.rate
 
 scoreboard players set @s soul.indicator.bullets.cumulative-total 0
 
