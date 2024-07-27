@@ -1,5 +1,5 @@
 # Summon indicator
-execute positioned 0 33.1 -68 rotated 0 0 run function animated_java:soul_2_gun/summon { args: {} }
+summon minecraft:marker ~ ~ ~ {CustomName:'"Soul 2 Indicator"', Tags:["omega-flowey-remastered","soul","soul-indicator","soul-indicator-new","soul_2"]}
 
 # Initialize bullet
 execute as @e[tag=soul-indicator-new] at @s run function entity:soul/soul_2/indicator/initialize

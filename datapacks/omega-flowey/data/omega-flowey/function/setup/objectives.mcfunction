@@ -124,6 +124,8 @@ scoreboard objectives add soul.indicator.bullets.cumulative-total dummy
 # number of bullets left to summon in a set
 scoreboard objectives add soul.indicator.bullets.remaining dummy
 scoreboard objectives add soul.indicator.bullets.total dummy
+# how often (in ticks) a soul-indicator summons a soul-bullet(s)
+scoreboard objectives add soul.indicator.rate dummy
 # boolean flags used to mark state changes during soul events
 scoreboard objectives add soul.flag dummy
 
