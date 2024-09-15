@@ -1,4 +1,4 @@
-# TODO(): validate these soul parameters
+# TODO(164): validate these soul parameters
 # x start point of each bullet row
 scoreboard players set #soul-2 soul.bullet.position.x 2250
 # z start/end points of each bullet row
