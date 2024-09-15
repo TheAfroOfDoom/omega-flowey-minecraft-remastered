@@ -23,7 +23,7 @@
 		"texture_folder": "",
 		"enable_advanced_data_pack_settings": false,
 		"data_pack": "G:\\Coding\\omega-flowey-minecraft-remastered\\datapacks\\animated_java",
-		"summon_commands": "data merge entity @s {CustomName:\"'Soul 2 Star'\"}\ntag @s add omega-flowey-remastered\ntag @s add soul\ntag @s add soul-bullet\ntag @s add soul-bullet-new\ntag @s add soul_2",
+		"summon_commands": "data merge entity @s {CustomName:\"'Soul 2 Star'\"}\ntag @s add omega-flowey-remastered\ntag @s add soul\ntag @s add soul-star\ntag @s add soul-star-new\ntag @s add soul_2",
 		"interpolation_duration": 1,
 		"teleportation_duration": 1,
 		"use_storage_for_animation": false,
@@ -4451,7 +4451,8 @@
 			"origin": [0.0619, 8.97024, 0.0619],
 			"color": 0,
 			"configs": {
-				"variants": {}
+				"variants": {},
+				"default": {}
 			},
 			"uuid": "f80b6cb1-82b2-d93d-d632-9a1085b81018",
 			"export": true,
