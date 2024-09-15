@@ -4443,12 +4443,28 @@
 			},
 			"type": "cube",
 			"uuid": "c0f6c3e6-ffdf-d84f-a971-87fb84c6222a"
+		},
+		{
+			"name": "locator",
+			"position": [0, 10.5, 0],
+			"rotation": [0, 0, 0],
+			"ignore_inherited_scale": false,
+			"visibility": true,
+			"locked": false,
+			"config": {
+				"use_entity": true,
+				"entity_type": "minecraft:marker",
+				"summon_commands": "data merge entity @s {data:{radius:1f,damage:2.0}}\ntag @s add omega-flowey-remastered\ntag @s add soul\ntag @s add soul-locator\ntag @s add soul_2",
+				"ticking_commands": ""
+			},
+			"uuid": "e911b8f7-5c45-6ab4-d013-60b5f49c95da",
+			"type": "locator"
 		}
 	],
 	"outliner": [
 		{
 			"name": "root",
-			"origin": [0.0619, 8.97024, 0.0619],
+			"origin": [0, 10.5, 0],
 			"color": 0,
 			"configs": {
 				"variants": {},
@@ -4583,7 +4599,8 @@
 						"0fb6209e-7835-a902-c592-f831e0a9bc34",
 						"53898ce8-e231-eaa0-300e-802af1b6d58e"
 					]
-				}
+				},
+				"e911b8f7-5c45-6ab4-d013-60b5f49c95da"
 			]
 		}
 	],
