@@ -1,14 +1,11 @@
-## Iteratively summons the next row of shoes
+## Iteratively summons the next row of stars
 
-# reset `math.0` to initial z coord + random offset
+# randomize number of stars to summon
+execute store result score @s soul.indicator.bullets.remaining run random value 1..3
 
-# random offset = -2..2
-execute store result score @s math.0 run random value -2..2
-# => [-1.00, -0.50, 0.00, 0.50, 1.00]
-scoreboard players operation @s math.0 *= #50 math.const
-scoreboard players operation @s math.0 += @s soul.bullet.position.z
+# stars row is centered in X between two rows of shoes
+scoreboard players operation @s math.0 = @s soul.bullet.position.x
+scoreboard players add @s math.0 100
+execute store result storage soul:soul_2 next_bullet_x float 0.01 run scoreboard players get @s math.0
 
-# reset bullets remaining to summon
-scoreboard players operation @s soul.indicator.bullets.remaining = @s soul.indicator.bullets.total
-
-function entity:soul/soul_2/indicator/loop/next_row/shoes/iterate
+function entity:soul/soul_2/indicator/loop/next_row/stars/iterate
