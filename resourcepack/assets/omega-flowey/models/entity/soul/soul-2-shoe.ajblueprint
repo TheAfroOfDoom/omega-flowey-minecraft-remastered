@@ -3607,6 +3607,122 @@
 		},
 		"list": []
 	},
-	"animations": [],
+	"animations": [
+		{
+			"uuid": "b95e41b2-163a-da29-b735-7bf986c134ac",
+			"name": "tap",
+			"loop": "loop",
+			"override": false,
+			"length": 1.35,
+			"snapping": 20,
+			"selected": false,
+			"saved": false,
+			"path": "",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [
+				{
+					"icon": "folder",
+					"name": "references",
+					"value": "c5c9ac32-f7da-50fb-4445-8f15a7b30158"
+				},
+				{
+					"icon": "folder",
+					"name": "player_reference",
+					"value": "a8eb6ff1-aba3-33d4-a4fb-18d63f3f4f84"
+				}
+			],
+			"animators": {
+				"206b1771-ba6e-a7c2-bff9-cb3811c571f4": {
+					"name": "root",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "14a2c524-565c-2291-dcb6-e47adf2fb0fa",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": 0,
+									"y": "48",
+									"z": 0
+								}
+							],
+							"uuid": "1c7a0cba-6256-52f6-5bce-db8425786ebd",
+							"time": 0.4,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": 0,
+									"y": 48,
+									"z": 0
+								}
+							],
+							"uuid": "bee06416-3ee6-c4bf-9cd4-25da92fea4cd",
+							"time": 0.65,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": 0,
+									"y": 0,
+									"z": 0
+								}
+							],
+							"uuid": "03d33291-5d86-f46f-4cf2-a4073bd34fba",
+							"time": 0.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": 0,
+									"y": 0,
+									"z": 0
+								}
+							],
+							"uuid": "6c78e34d-e5c6-4127-4599-65f94694c7da",
+							"time": 1.35,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				}
+			}
+		}
+	],
 	"animation_controllers": []
 }
