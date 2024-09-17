@@ -1,11 +1,9 @@
-# Soul 2 act buttons re-use the initialization logic in bullets
-function entity:soul/soul_2/bullet/initialize
-
-# Add tags
+# Change tags
 tag @s add soul_2
-
-# Remove tags
 tag @s remove act-button-new
+
+# Set scores
+scoreboard players set @s soul.clock.i -1
 
 # Store this UUID to a global storage for later reference
 function gu:generate

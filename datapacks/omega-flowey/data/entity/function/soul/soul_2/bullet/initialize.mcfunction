@@ -1,10 +1,12 @@
-# Randomize delay before starting animation to have a random pattern of the
-# bullets moving up and down
-execute store result score @s math.0 run random value 0..19
+# Randomize animation frame index so the rows of shoes aren't
+# all tapping at the same animation index
+execute store result score @s aj.tap.frame run random value 0..26
+
+# Start animation
+function animated_java:soul_2_shoe/animations/tap/resume
 
 # Set scores
 scoreboard players set @s soul.clock.i -1
-scoreboard players operation @s soul.clock.i -= @s math.0
 
 # Remove tags
 tag @s remove soul-bullet-new
