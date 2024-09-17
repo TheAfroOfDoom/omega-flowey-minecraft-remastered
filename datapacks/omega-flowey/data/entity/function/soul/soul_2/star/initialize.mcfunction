@@ -1,6 +1,6 @@
 # Randomize animation frame index so the rows of stars aren't
 # all rotating at the same animation index
-execute store result score @s aj.roll.frame run random value 0..19
+execute store result score @s aj.roll.frame run random value 0..59
 
 # Start animation
 function animated_java:soul_2_star/animations/roll/resume
