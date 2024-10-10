@@ -18,6 +18,10 @@ execute if entity @s[tag=aj.petal_pipe_middle.root] run function animated_java:p
 
 execute if entity @s[tag=aj.tv_screen.root, tag=tv_screen.boss_fight] run function animated_java:tv_screen/animations/move/pause
 execute if entity @s[tag=aj.tv_screen.root, tag=tv_screen.boss_fight] run function animated_java:tv_screen/variants/default/apply
+execute \
+  if entity @s[tag=aj.tv_screen.root, tag=tv_screen.boss_fight] \
+  on passengers if entity @s[tag=aj.tv_screen.bone] \
+  run function entity:hostile/omega-flowey/animate/tv-screen/default/bone
 
 execute if entity @s[tag=aj.upper_eye.root] run function animated_java:upper_eye/animations/look_around/pause
 execute if entity @s[tag=aj.upper_eye.root] run function animated_java:upper_eye/variants/default/apply
