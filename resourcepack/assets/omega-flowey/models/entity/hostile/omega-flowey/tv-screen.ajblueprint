@@ -821,13 +821,97 @@
 			"uuid": "af9dc3c0-cce9-f17c-a78c-9e44164172e1",
 			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAB5JREFUOE9jZGBg+M9AAWAcNYBhNAwYRsOAYViEAQBOThABC541RwAAAABJRU5ErkJggg==",
 			"mode": "bitmap"
+		},
+		{
+			"path": "G:\\Coding\\omega-flowey-minecraft-remastered\\resourcepack\\assets\\omega-flowey\\textures\\custom\\tv_screen\\faces\\start_in_1.png",
+			"name": "start_in_1.png",
+			"folder": "",
+			"namespace": "",
+			"id": "10",
+			"group": "",
+			"width": 32,
+			"height": 32,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "bc1025dc-1206-64d0-27de-01b9341b5e9c",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAbRJREFUWEfNl91WgzAQhBO4sED9e6fqO/vzVlq9AjzEzp72wzWWHpv2hpKEMLM7O1niqr0dQwihqqrpYr++79P/GOPBuO6HYUjjfE7jWuc9P47ptSEWB9Cu7xMUMa7rOiEjQ80rHGQuRponc2O8i6jdFwegFAi5kCkSZKbIaJ5a4fqsRk4BsH3bpPSt2qeokB8NoOnu0ibMkSLiqfrj/eFbxiGEdv1ipUIg3r42vhTA9GKBOAnAVXOTmHj1SlUL+XT93D6mZ7vr18gq8rTBCMXiAFSGzDmr4qf6VgSmFHi5ZmRnmloCQC8+8OgQQtM9WzV4hjQDoBSoXoWYzqdxraNT6p5lSD/ROgN4MQA8pFkn23k7mTFSPENMM4pAMQCy4pwPUDwUIDXBvsHb3/qBYgAowplKcX7n+gDm3jsbrOqKA9BhxJzmTjEx0DpPI5rneusZiwPgYZQTIxmTGc8Qj/nMCXNtNDdm2dGCc6HPAji2y/2tb5jmXEf1UnA2ABLhUhV7qSABRmhWBRcL4K/fguwnxFh9BeeNcC4FZwPAMqMTsky9LyZ6f84nIp1wv+3eb9f/C8AX4Fo+XTQeBkgAAAAASUVORK5CYII=",
+			"mode": "bitmap"
+		},
+		{
+			"path": "G:\\Coding\\omega-flowey-minecraft-remastered\\resourcepack\\assets\\omega-flowey\\textures\\custom\\tv_screen\\faces\\start_in_2.png",
+			"name": "start_in_2.png",
+			"folder": "",
+			"namespace": "",
+			"id": "11",
+			"group": "",
+			"width": 32,
+			"height": 32,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "611aecc8-6234-effc-f061-6e91fd163116",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAbhJREFUWEfNl9lWg0AQRBl4MEDcPir6zS6fpdEXwENLzSEX2zHkmEledBaGqu7qmiZsmtuhKIqiLMvxT/x1XWf/hxAO5jXu+97m+Zzmtc97fhjstUXIDqDZ3hsUMa6qypCRodYVDjIXI62TeWQ8RTSOswNQCoRcyBQJMlNktE6tcH9SI2sBfO4fv1U0/er22dR6NIC6vbODmCMd/JOq9287e6bZvthL52PlXud558b5NQAO6vJUAFf1jbHx6pWqnjP7eH+Iadg0TxaNlDYYobAWgMLeXr/ai1nGnjgXAFSGzDmrYh4JMR+FNx4oMBrPU8TILjR1CgBqYRUApUD1KsR0Ps1rH51SY5Yh/UT7YkQvBoCHNOlkk7eTGSPFOyT6gCKQDYCsOOUDVC8FSE2wb/DOj/1ANgAU4UKluL9TfQBz790NseqyA9BlxJymbjEx0D5PI1rn/tgzZgfAyyglRjImM94hHvOFE6baaB7MsqMFp0KfBHBsl/tb3zCuuY7qpeBsACTCtSr2UkECjNCiCi4WwF+/BdlPiLH6Cq5HwqkUnA0Ay4xOyDL1vpjo/SmfCHRC74PivwB8AaNxPV28xVo6AAAAAElFTkSuQmCC",
+			"mode": "bitmap"
+		},
+		{
+			"path": "G:\\Coding\\omega-flowey-minecraft-remastered\\resourcepack\\assets\\omega-flowey\\textures\\custom\\tv_screen\\faces\\start_in_3.png",
+			"name": "start_in_3.png",
+			"folder": "",
+			"namespace": "",
+			"id": "12",
+			"group": "",
+			"width": 32,
+			"height": 32,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "863eb4e6-37ed-edd3-af4e-bd37f0c7b9dd",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAb9JREFUWEfNV9tWgzAQJPCgQL19k5ePVr9KW30CerIye9KJ6xZ6bMpLmxDCzO7sZAnX3d1UVVVV13X80WsYBvkfQjiYx3gcR5nn5zCPddbz0ySvrUJxAN3mQaCAcdM0gowZ4j7CwczBCPeZuTKeI6rj4gCQAiAHMkSCmSEyuM9a4fWuRtYC+N69/KhovrrNm6h1MYC2v5eNOEfY+DdV7z6f5Jn+5l1emo6Re+xn7avzawAc1OWpAK7aW2Fj1SurOmX2tX3WNLT9q0TD0wZHKJwCAEa0/XgUIBHEYgAoQ845V0UaCTCPwouMoAGM0xRxZDNNrQEQX5CGP45RBV4qMwBIAeoVG7DzYR7r2Ckx5jJkP8E6jejFALCQuk42ezsz40jxGaI+gAgUAwArXioeNiPWBPcN1v7aDxQDwCLMVErnt9cHcO6ts0GrrjgAHEacU+8UAwOsY4NhJ+X12jMWB8CHkSdGZszMjmWeOaHXRvPGXHZswRhboXcBLO1y/+obcGynOlPNWCk4GwCIcK2KrVQwAY5QVgUXC+DYb0HuJ8AYfQXfV8JeCs4GgMuMnZDL1PpiYu/3fCKwE1ofFP8FYA+YyT1dY1LbdgAAAABJRU5ErkJggg==",
+			"mode": "bitmap"
 		}
 	],
 	"variants": {
 		"default": {
 			"name": "default",
 			"display_name": "Default",
-			"uuid": "2f27a574-67e6-f0ff-8971-7079204da5f4",
+			"uuid": "b0c07dbc-6044-9db1-bdd0-d565f33dbbfd",
 			"texture_map": {},
 			"excluded_nodes": [],
 			"is_default": true
@@ -870,6 +954,33 @@
 				"texture_map": {
 					"370b8b73-4e6c-b936-26ae-cafa974e6fc9": "af9dc3c0-cce9-f17c-a78c-9e44164172e1",
 					"32717bc3-fe35-1fc8-9bbf-54407fe854d1": "af9dc3c0-cce9-f17c-a78c-9e44164172e1"
+				},
+				"excluded_nodes": []
+			},
+			{
+				"name": "start_in_3",
+				"display_name": "start_in_3",
+				"uuid": "9fc0b4a7-58fc-695f-93cd-e7cf1ad4af1f",
+				"texture_map": {
+					"32717bc3-fe35-1fc8-9bbf-54407fe854d1": "863eb4e6-37ed-edd3-af4e-bd37f0c7b9dd"
+				},
+				"excluded_nodes": []
+			},
+			{
+				"name": "start_in_2",
+				"display_name": "start_in_2",
+				"uuid": "eeba70ca-f63e-7bc2-a72a-a8abc714e152",
+				"texture_map": {
+					"32717bc3-fe35-1fc8-9bbf-54407fe854d1": "611aecc8-6234-effc-f061-6e91fd163116"
+				},
+				"excluded_nodes": []
+			},
+			{
+				"name": "start_in_1",
+				"display_name": "start_in_1",
+				"uuid": "06a9535d-858f-5147-2595-4fadbf940bd3",
+				"texture_map": {
+					"32717bc3-fe35-1fc8-9bbf-54407fe854d1": "bc1025dc-1206-64d0-27de-01b9341b5e9c"
 				},
 				"excluded_nodes": []
 			}
@@ -970,7 +1081,7 @@
 			"override": false,
 			"length": 2,
 			"snapping": 20,
-			"selected": false,
+			"selected": true,
 			"saved": false,
 			"path": "",
 			"anim_time_update": "",
