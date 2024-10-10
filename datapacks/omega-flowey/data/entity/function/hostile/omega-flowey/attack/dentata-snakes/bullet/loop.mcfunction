@@ -1,7 +1,7 @@
 scoreboard players add @s attack.clock.i 1
 
 execute store result storage utils:damage radius float 0.0001 run scoreboard players get @s attack.bullets.radius
-data merge storage utils:damage { damage: 2.5 }
+data merge storage utils:damage { damage: 3 }
 function entity:utils/damage with storage utils:damage
 
 # Check if inside arena
