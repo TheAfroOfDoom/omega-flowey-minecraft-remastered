@@ -7,6 +7,7 @@ execute unless score #omegaflowey.bossfight.stop_reason global.flag matches 0 ru
 
 # Run loop logic based on what phase the boss_fight is in
 execute if entity @s[tag=boss_fight.phase.attack] run function entity:directorial/boss_fight/summit/phase/attack/loop
+execute if entity @s[tag=boss_fight.phase.cutscene] run function entity:directorial/boss_fight/summit/phase/cutscene/loop
 execute if entity @s[tag=boss_fight.phase.soul] run function entity:directorial/boss_fight/summit/phase/soul/loop
 execute if entity @s[tag=boss_fight.phase.warn] run function entity:directorial/boss_fight/summit/phase/warn/loop
 

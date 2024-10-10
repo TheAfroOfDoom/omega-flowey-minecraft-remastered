@@ -22,6 +22,8 @@ function entity:directorial/boss_fight/shared/reset_scores
 scoreboard players set @s boss-fight.attack.delay -1
 scoreboard players set @s boss-fight.attack.phase.i 0
 scoreboard players set @s boss-fight.attack.phase.total 2
+scoreboard players set @s boss-fight.cutscene.phase.i 0
+scoreboard players set @s boss-fight.cutscene.phase.total 2
 scoreboard players set @s boss-fight.progress.phase.i 0
 scoreboard players set @s boss-fight.progress.phase.total 2
 
