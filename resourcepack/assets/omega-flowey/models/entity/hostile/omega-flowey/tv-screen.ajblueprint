@@ -793,13 +793,41 @@
 			"uuid": "82a55ae0-18b1-4d51-3f7b-efc3b128fb15",
 			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAACtJREFUOE9jZCASnDlzhgumlJWVlRHGhjMImTNqAAPDaBiMhgEonwzedAAAogkn8eruzk4AAAAASUVORK5CYII=",
 			"mode": "bitmap"
+		},
+		{
+			"path": "G:\\Coding\\omega-flowey-minecraft-remastered\\resourcepack\\assets\\omega-flowey\\textures\\custom\\black.png",
+			"name": "black.png",
+			"folder": "",
+			"namespace": "",
+			"id": "9",
+			"group": "",
+			"width": 16,
+			"height": 16,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "af9dc3c0-cce9-f17c-a78c-9e44164172e1",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAB5JREFUOE9jZGBg+M9AAWAcNYBhNAwYRsOAYViEAQBOThABC541RwAAAABJRU5ErkJggg==",
+			"mode": "bitmap"
 		}
 	],
 	"variants": {
 		"default": {
 			"name": "default",
 			"display_name": "Default",
-			"uuid": "d17c1fbb-076e-a497-c90d-e8dbe807504f",
+			"uuid": "2f27a574-67e6-f0ff-8971-7079204da5f4",
 			"texture_map": {},
 			"excluded_nodes": [],
 			"is_default": true
@@ -834,6 +862,16 @@
 					"f4d3290b-8e74-e77f-c372-e0c3af2c203b": "f68699ff-08b0-7875-d080-7e8dc0c76406"
 				},
 				"excluded_nodes": ["a392135b-a4c6-2b9e-d88f-f3b3746d5270"]
+			},
+			{
+				"name": "black",
+				"display_name": "black",
+				"uuid": "b177c1c7-c960-f046-897f-b94e08803158",
+				"texture_map": {
+					"370b8b73-4e6c-b936-26ae-cafa974e6fc9": "af9dc3c0-cce9-f17c-a78c-9e44164172e1",
+					"32717bc3-fe35-1fc8-9bbf-54407fe854d1": "af9dc3c0-cce9-f17c-a78c-9e44164172e1"
+				},
+				"excluded_nodes": []
 			}
 		]
 	},
@@ -932,7 +970,7 @@
 			"override": false,
 			"length": 2,
 			"snapping": 20,
-			"selected": true,
+			"selected": false,
 			"saved": false,
 			"path": "",
 			"anim_time_update": "",
