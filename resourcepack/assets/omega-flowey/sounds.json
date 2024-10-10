@@ -147,6 +147,21 @@
       }
     ]
   },
+  "cutscene.intro.countdown": {
+    "sounds": [
+      {
+        "name": "omega-flowey:snd_impact"
+      }
+    ]
+  },
+  "cutscene.intro.music": {
+    "sounds": [
+      {
+        "name": "omega-flowey:music.intro",
+        "type": "event"
+      }
+    ]
+  },
   "music.generic.boss-fight.0": {
     "sounds": [
       {
@@ -183,6 +198,14 @@
     "sounds": [
       {
         "name": "omega-flowey:mus_f_endnote",
+        "stream": true
+      }
+    ]
+  },
+  "music.intro": {
+    "sounds": [
+      {
+        "name": "omega-flowey:mus_f_intro",
         "stream": true
       }
     ]
